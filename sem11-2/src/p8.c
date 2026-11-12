@@ -60,11 +60,20 @@ int main() {
 
     printtree(TREE);
 
+    // find 10
     if (seekfor(TREE, 10)) {
         printf("found value 10\n");
     }
     else {
         printf("couldn't find value 10\n");
+    }
+
+    // find 5
+    if (seekfor(TREE, 5)) {
+        printf("found value 5\n");
+    }
+    else {
+        printf("couldn't find value 5\n");
     }
 
     return 0;
